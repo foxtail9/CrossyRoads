@@ -1,11 +1,12 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class InGameUI : MonoBehaviour
 {
-    public Text coin = null;
-    public Text distance = null;
+    public TextMeshProUGUI coin = null;
+    public TextMeshProUGUI distance = null;
     public GameObject guiGameOver = null;
 
     private void Start()
